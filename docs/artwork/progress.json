@@ -1,0 +1,868 @@
+{
+  "total": 123,
+  "installed": 123,
+  "pending": 0,
+  "posts": [
+    {
+      "id": "bale-main:message-0008",
+      "title": "نقش بلا در تکامل معرفت",
+      "slug": "clear-beliefs-message-0008",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0008-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0014",
+      "title": "تقوا؛ هنرِ مهارِ غریزه در عصرِ مدرن",
+      "slug": "clear-beliefs-message-0014",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0014-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0027",
+      "title": "چرا مذهبی‌ها خشک و سنتی هستند؟",
+      "slug": "clear-beliefs-message-0027",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0027-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0039",
+      "title": "نبوت، تجارت نیست؛ رسالت است.",
+      "slug": "clear-beliefs-message-0039",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0039-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0049",
+      "title": "آیا تغییر قبله، بروزرسانی بود؟!",
+      "slug": "clear-beliefs-message-0049",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0049-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0059",
+      "title": "عقل، حجت خداست!",
+      "slug": "clear-beliefs-message-0059",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0059-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0067",
+      "title": "محلِ تولد، جبر طبیعت یا هدیه خدا",
+      "slug": "clear-beliefs-message-0067",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0067-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0107",
+      "title": "نبوت، تجارت نیست؛ رسالت است.",
+      "slug": "clear-beliefs-message-0107",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0107-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0139",
+      "title": "اتاق فرار برای معرفت خدا",
+      "slug": "clear-beliefs-message-0139",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0139-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0144",
+      "title": "چرا فطرت هنوز معتبر است؟",
+      "slug": "clear-beliefs-message-0144",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0144-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0155",
+      "title": "خدا؛ یادگیری یا یادآوری؟",
+      "slug": "clear-beliefs-message-0155",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0155-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0187",
+      "title": "وقتی نشانه خدا را می‌بینی",
+      "slug": "clear-beliefs-message-0187",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0187-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0193",
+      "title": "آیا دین می‌خواهد ما عاشق بلا باشیم؟",
+      "slug": "clear-beliefs-message-0193",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0193-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0200",
+      "title": "استدلال یا وجدان؟",
+      "slug": "clear-beliefs-message-0200",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0200-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0209",
+      "title": "احکام، راه رشد انسان",
+      "slug": "clear-beliefs-message-0209",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0209-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0217",
+      "title": "آیا دین با عزت نفس مخالفت دارد؟!‌",
+      "slug": "clear-beliefs-message-0217",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0217-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0222",
+      "title": "«جَبّار» یعنی چه؟",
+      "slug": "clear-beliefs-message-0222",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0222-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0237",
+      "title": "یادِ مرگ و زندگی",
+      "slug": "clear-beliefs-message-0237",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0237-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0244",
+      "title": "تقوا؛ محدودیت یا مراقبت؟",
+      "slug": "clear-beliefs-message-0244",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0244-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0249",
+      "title": "چرا انسان باید بنده باشد؟",
+      "slug": "clear-beliefs-message-0249",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0249-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0254",
+      "title": "وقتی خدا می‌گوید «شاید»",
+      "slug": "clear-beliefs-message-0254",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0254-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0261",
+      "title": "متکی به خدا و ولی‌او بودن",
+      "slug": "clear-beliefs-message-0261",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0261-v1.webp"
+    },
+    {
+      "id": "bale-supplemental:message-010",
+      "title": "غنیمتِ زیرک‌ها",
+      "slug": "clear-beliefs-supplemental-message-010",
+      "status": "installed",
+      "src": "/images/posts/natural-supplemental-message-010-v1.webp"
+    },
+    {
+      "id": "bale-supplemental:message-011",
+      "title": "احکام نیاز مدرنیته",
+      "slug": "clear-beliefs-supplemental-message-011",
+      "status": "installed",
+      "src": "/images/posts/natural-supplemental-message-011-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0012",
+      "title": "کمی تنفس در خلال جنگ",
+      "slug": "everyday-life-message-0012",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0012-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0040",
+      "title": "پایدارترین رفاقت",
+      "slug": "everyday-life-message-0040",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0040-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0045",
+      "title": "دوستان عزیز و والدین گرامی، که در تدارک این سورپرایز زیبا نقش داشتید،",
+      "slug": "everyday-life-message-0045",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0045-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0165",
+      "title": "جناب آقای ابن الرضا سلام و عرض ادب؛در روایت از ام‌سلمه بیان شده است که فرشتگانِ آسمان، مبهوتِ بوی خوشی می‌شوند که از مجالسِ ذکرِ فضائلِ امیرالمؤمنین (ع) برمی‌خی",
+      "slug": "everyday-life-message-0165",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0165-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0243",
+      "title": "یک تلسکوپ امروز به جایی رفت که چشم انسان نمی‌تواند ببیند.",
+      "slug": "everyday-life-message-0243",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0243-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0259",
+      "title": "پدرِ آن غایبِ همیشه حاضر",
+      "slug": "everyday-life-message-0259",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0259-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0002",
+      "title": "ردپای حضرت | وقتی دل، به خانه‌ی امن می‌رسد...",
+      "slug": "his-footsteps-message-0002",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0002-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0009",
+      "title": "السلام علیک یا ربیع‌الانام",
+      "slug": "his-footsteps-message-0009",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0009-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0018",
+      "title": "همه دنیا منتظر است",
+      "slug": "his-footsteps-message-0018",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0018-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0023",
+      "title": "مدرسه‌ی زندگی",
+      "slug": "his-footsteps-message-0023",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0023-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0032",
+      "title": "دوباره می‌شود بال درآورد..",
+      "slug": "his-footsteps-message-0032",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0032-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0044",
+      "title": "دفتر دعای خودمانی",
+      "slug": "his-footsteps-message-0044",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0044-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0054",
+      "title": "بامِ تهران!",
+      "slug": "his-footsteps-message-0054",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0054-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0061",
+      "title": "مهمانی که نیست...",
+      "slug": "his-footsteps-message-0061",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0061-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0069",
+      "title": "معجزه آدم معمولی‌ها",
+      "slug": "his-footsteps-message-0069",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0069-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0102",
+      "title": "دوباره می‌شود بال درآورد..",
+      "slug": "his-footsteps-message-0102",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0102-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0141",
+      "title": "صدای طبلِ زندگی",
+      "slug": "his-footsteps-message-0141",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0141-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0151",
+      "title": "نجوا با پیامبر",
+      "slug": "his-footsteps-message-0151",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0151-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0156",
+      "title": "دل، دنبالِ سرمایه‌اش می‌رود",
+      "slug": "his-footsteps-message-0156",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0156-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0188",
+      "title": "طول عمر",
+      "slug": "his-footsteps-message-0188",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0188-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0194",
+      "title": "خاطره‌ای ماندگارتر از زمان",
+      "slug": "his-footsteps-message-0194",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0194-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0203",
+      "title": "بزرگداشت امام زمانم",
+      "slug": "his-footsteps-message-0203",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0203-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0211",
+      "title": "وقتی دلت می‌شکند",
+      "slug": "his-footsteps-message-0211",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0211-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0215",
+      "title": "امام زمان، عزیزترین خواسته دل‌",
+      "slug": "his-footsteps-message-0215",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0215-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0228",
+      "title": "اوج گرفتن با امام زمان",
+      "slug": "his-footsteps-message-0228",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0228-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0240",
+      "title": "راهِ اتصال",
+      "slug": "his-footsteps-message-0240",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0240-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0247",
+      "title": "«گم شدن» در کوچه‌های زندگی",
+      "slug": "his-footsteps-message-0247",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0247-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0252",
+      "title": "ما خودمان از پناهگاه بیرون می‌آییم...",
+      "slug": "his-footsteps-message-0252",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0252-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0258",
+      "title": "برادر داشتن",
+      "slug": "his-footsteps-message-0258",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0258-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0263",
+      "title": "همه دنیا منتظر است",
+      "slug": "his-footsteps-message-0263",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0263-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0265",
+      "title": "مدرسه‌ی زندگی",
+      "slug": "his-footsteps-message-0265",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0265-v1.webp"
+    },
+    {
+      "id": "bale-supplemental:message-007",
+      "title": "شهریور هم تمام شد...",
+      "slug": "his-footsteps-supplemental-message-007",
+      "status": "installed",
+      "src": "/images/posts/natural-supplemental-message-007-v1.webp"
+    },
+    {
+      "id": "bale-supplemental:message-014",
+      "title": "مشعل را گم نکنیم",
+      "slug": "his-footsteps-supplemental-message-014",
+      "status": "installed",
+      "src": "/images/posts/natural-supplemental-message-014-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0007",
+      "title": "جنگ، مرگ، قیامت",
+      "slug": "life-with-ali-message-0007",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0007-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0013",
+      "title": "انسانِ عاقل از اشتباهاتش درس نمیگیرد.!!!",
+      "slug": "life-with-ali-message-0013",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0013-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0019",
+      "title": "زندگی‌ رسیدن نیست؛ عبور کردن است‌.",
+      "slug": "life-with-ali-message-0019",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0019-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0038",
+      "title": "مدرسه اجباری زندگی",
+      "slug": "life-with-ali-message-0038",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0038-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0047",
+      "title": "برنده کسی است که صبور باشد",
+      "slug": "life-with-ali-message-0047",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0047-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0056",
+      "title": "هر «رسیدن»، یک «خداحافظی» نیز دارد!",
+      "slug": "life-with-ali-message-0056",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0056-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0066",
+      "title": "با اشتباه عزیز‌مان چه کنیم؟",
+      "slug": "life-with-ali-message-0066",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0066-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0084",
+      "title": "انسانِ عاقل از اشتباهاتش درس نمی‏گیرد.!!!",
+      "slug": "life-with-ali-message-0084",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0084-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0138",
+      "title": "جمله درست تا سقوط!",
+      "slug": "life-with-ali-message-0138",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0138-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0142",
+      "title": "خودت وصیِ خودت باش!",
+      "slug": "life-with-ali-message-0142",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0142-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0154",
+      "title": "مدیریت خودم با کیست؟",
+      "slug": "life-with-ali-message-0154",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0154-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0160",
+      "title": "عبادتِ فراموش‌شده...",
+      "slug": "life-with-ali-message-0160",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0160-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0184",
+      "title": "وفاداری، یعنی مرز داشتن",
+      "slug": "life-with-ali-message-0184",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0184-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0191",
+      "title": "آدم‌ها را مطلق نبین",
+      "slug": "life-with-ali-message-0191",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0191-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0195",
+      "title": "آرزو کردن چه اشکالی دارد؟",
+      "slug": "life-with-ali-message-0195",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0195-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0207",
+      "title": "بلوغ شکرگزاری",
+      "slug": "life-with-ali-message-0207",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0207-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0212",
+      "title": "دنیا دوستی!",
+      "slug": "life-with-ali-message-0212",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0212-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0216",
+      "title": "ترس از فقر",
+      "slug": "life-with-ali-message-0216",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0216-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0220",
+      "title": "نحوه‌ی پرسش‌گری",
+      "slug": "life-with-ali-message-0220",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0220-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0230",
+      "title": "برنده‌ای یا پیروز",
+      "slug": "life-with-ali-message-0230",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0230-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0248",
+      "title": "چرا روزی فقرا نزد ثروتمندان است؟",
+      "slug": "life-with-ali-message-0248",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0248-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0253",
+      "title": "پیش‌گیری تا عذرخواهی",
+      "slug": "life-with-ali-message-0253",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0253-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0260",
+      "title": "شکر نعمت",
+      "slug": "life-with-ali-message-0260",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0260-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0264",
+      "title": "زندگی‌ رسیدن نیست؛ عبور کردن است‌.",
+      "slug": "life-with-ali-message-0264",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0264-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0026",
+      "title": "تولد میهمان با ارج و قرب ایران",
+      "slug": "occasions-message-0026",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0026-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0065",
+      "title": "در سوگ جواد الائمه (علیه السلام)",
+      "slug": "occasions-message-0065",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0065-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0071",
+      "title": "در سوگ شهادت امام باقر (علیه‌السلام)",
+      "slug": "occasions-message-0071",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0071-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0143",
+      "title": "میلاد امام هادی علیه السلام",
+      "slug": "occasions-message-0143",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0143-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0150",
+      "title": "به نام او که راه را بیِ‌نشانه نگذاشت",
+      "slug": "occasions-message-0150",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0150-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0153",
+      "title": "انسانِ عاقل در نگاه امام موسی‌کاظم",
+      "slug": "occasions-message-0153",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0153-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0158",
+      "title": "سلام و خداقوت",
+      "slug": "occasions-message-0158",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0158-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0183",
+      "title": "از زخمِ دنیا تا حمدِ خدا",
+      "slug": "occasions-message-0183",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0183-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0213",
+      "title": "اربعین | پناهِ دل‌های خسته",
+      "slug": "occasions-message-0213",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0213-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0218",
+      "title": "با عرض تسلیت یه محضر صاحب عزا",
+      "slug": "occasions-message-0218",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0218-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0219",
+      "title": "غریب آشنا سلام علیک...",
+      "slug": "occasions-message-0219",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0219-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0229",
+      "title": "با عرض تسلیت به محضر صاحب عزا",
+      "slug": "occasions-message-0229",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0229-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0241",
+      "title": "آنان که جهان را با اخلاق‌ تغییر دادند",
+      "slug": "occasions-message-0241",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0241-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0262",
+      "title": "در سوگ شهادت امام باقر (علیه‌السلام)",
+      "slug": "occasions-message-0262",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0262-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0161",
+      "title": "معرفی مجموعه فلسفه اشک",
+      "slug": "philosophy-of-tears-message-0161",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0161-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0162",
+      "title": "چرا هنوز برای حسین(ع) گریه می‌کنیم؟",
+      "slug": "philosophy-of-tears-message-0162",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0162-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0163",
+      "title": "محرم؛ مواجهه با رنج",
+      "slug": "philosophy-of-tears-message-0163",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0163-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0167",
+      "title": "اشک؛ درمان سنگ شدن قلب",
+      "slug": "philosophy-of-tears-message-0167",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0167-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0169",
+      "title": "اگر گریه نکنیم چه می‌شود؟",
+      "slug": "philosophy-of-tears-message-0169",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0169-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0170",
+      "title": "اشک؛ آخرین زبان روح",
+      "slug": "philosophy-of-tears-message-0170",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0170-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0172",
+      "title": "چرا بشر به تراژدی نیاز دارد؟",
+      "slug": "philosophy-of-tears-message-0172",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0172-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0174",
+      "title": "بی‌حسی انسان امروز",
+      "slug": "philosophy-of-tears-message-0174",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0174-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0175",
+      "title": "وقتی انسان می‌بخشد",
+      "slug": "philosophy-of-tears-message-0175",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0175-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0176",
+      "title": "چرا انسان همیشه شاد بودن را نمی‌تواند تحمل کند؟",
+      "slug": "philosophy-of-tears-message-0176",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0176-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0177",
+      "title": "گریه؛ نوعی شناخت است",
+      "slug": "philosophy-of-tears-message-0177",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0177-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0178",
+      "title": "ده روز با «فلسفه اشک | چرا برای حسین(ع) می‌گرییم؟» همراه بودیم.",
+      "slug": "philosophy-of-tears-message-0178",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0178-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0179",
+      "title": "ده روز با «فلسفه اشک | چرا برای حسین(ع) می‌گرییم؟» همراه بودیم.",
+      "slug": "philosophy-of-tears-message-0179",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0179-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0182",
+      "title": "نظرسنجی ۱:قبل از این مجموعه، نگاه شما به گریه و عزاداری حسینی بیشتر به کدام سمت بود؟",
+      "slug": "philosophy-of-tears-message-0182",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0182-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0005",
+      "title": "سلام به همگی",
+      "slug": "resources-message-0005",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0005-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0025",
+      "title": "نجوا با امام زمان(عج)حمیدرضا برقعی- 2دقیقه",
+      "slug": "resources-message-0025",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0025-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0137",
+      "title": "معرفی کتاب | بخش ۳",
+      "slug": "resources-message-0137",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0137-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0145",
+      "title": "باسلام و احترام؛پُست های ذیل؛ برای مخاطبِ جوان امروز؛ و مناسب با زبان و نگاه این نسل؛ به رشته تحریردر آمده است.در پناه مولایتان باشید",
+      "slug": "resources-message-0145",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0145-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0146",
+      "title": "پیام غدیر | علی، امام فطرت؛ نه قومیت",
+      "slug": "resources-message-0146",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0146-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0152",
+      "title": "معرفی کتاب | بخش ۴",
+      "slug": "resources-message-0152",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0152-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0198",
+      "title": "سلامدر تکمیل بحث هفته گذشته راجع به بازی های کامپیوتری که مطرح کردید. این گزارش که تازه برای پارسال هست خیلی میتونه بهتون کمک کنه. من سه تا نکته مهم میگم بقیشه ",
+      "slug": "resources-message-0198",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0198-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0231",
+      "title": "پیشنهاد برای نیمه شعبان امسال",
+      "slug": "resources-message-0231",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0231-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0024",
+      "title": "دورهمی ۲۷ فروردین",
+      "slug": "sessions-message-0024",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0024-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0036",
+      "title": "خلاصه‌ی سه درس اول توحید",
+      "slug": "sessions-message-0036",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0036-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0037",
+      "title": "پنج‌شنبه ۳ اردیبهشت ۱۴۰۵",
+      "slug": "sessions-message-0037",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0037-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0046",
+      "title": "جلسه ۱۰ اردیبهشت ۱۴۰۴",
+      "slug": "sessions-message-0046",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0046-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0053",
+      "title": "۱۷ اردیبهشت ۱۴۰۵",
+      "slug": "sessions-message-0053",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0053-v1.webp"
+    },
+    {
+      "id": "bale-main:message-0070",
+      "title": "پنجشنبه ۳۱ اردیبهشت ۱۴۰۵",
+      "slug": "sessions-message-0070",
+      "status": "installed",
+      "src": "/images/posts/natural-main-message-0070-v1.webp"
+    }
+  ]
+}

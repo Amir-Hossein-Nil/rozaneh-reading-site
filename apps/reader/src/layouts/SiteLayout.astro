@@ -1,0 +1,107 @@
+---
+import '@site/design/styles.css';
+import { Icon, ThemeToggle, ReadingAssistant } from '@site/ui';
+interface Props {
+  title: string;
+  description?: string;
+  active?: string;
+}
+const {
+  title,
+  description = 'روزنه؛ مطالب کوتاه آموزشی و دینی، فرصتی برای فکر کردن و خواندن.',
+  active = '',
+} = Astro.props;
+const nav = [
+  { href: '/', label: 'برای شما', icon: 'home' as const, key: 'home' },
+  { href: '/collections', label: 'مجموعه‌ها', icon: 'grid' as const, key: 'collections' },
+  { href: '/saved', label: 'ذخیره‌ها', icon: 'bookmark' as const, key: 'saved' },
+];
+---
+
+<!doctype html>
+<html lang="fa" dir="rtl" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} | روزنه</title>
+    <meta name="description" content={description} />
+    <meta name="color-scheme" content="dark light" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script is:inline>
+      try {
+        const t = localStorage.getItem('city-perspectives:theme');
+        document.documentElement.dataset.theme =
+          t === 'light' || t === 'dark'
+            ? t
+            : matchMedia('(prefers-color-scheme:dark)').matches
+              ? 'dark'
+              : 'light';
+      } catch {
+        document.documentElement.dataset.theme = matchMedia('(prefers-color-scheme:dark)').matches
+          ? 'dark'
+          : 'light';
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">
+      رفتن به محتوا
+    </a>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="header-start">
+          <a class="brand" href="/" aria-label="روزنه؛ صفحه اصلی">
+            روزنه<span class="brand-dot"></span>
+          </a>
+          <ThemeToggle client:load />
+        </div>
+        <div class="header-end">
+          <form class="search-box" action="/search" role="search">
+            <label for="header-search" hidden>
+              جست‌وجوی مطالب
+            </label>
+            <input id="header-search" name="q" placeholder="جست‌وجوی موضوع…" maxlength="160" />
+            <button type="submit" aria-label="جست‌وجو">
+              <Icon name="search" />
+            </button>
+          </form>
+          <a class="icon-button header-profile" href="/app" aria-label="بخش حساب">
+            <Icon name="user" />
+          </a>
+        </div>
+      </header>
+      <div class="app-layout">
+        <nav class="desktop-nav" aria-label="ناوبری اصلی">
+          {nav.map((n) => (
+            <a class="nav-link" href={n.href} aria-current={active === n.key ? 'page' : undefined}>
+              <Icon name={n.icon} size={24} />
+              <span>{n.label}</span>
+            </a>
+          ))}
+        </nav>
+        <main id="main" class="main-content" tabindex="-1">
+          <slot />
+        </main>
+      </div>
+      <footer class="site-footer">
+        <span>یک مکث کوتاه، یک نگاه تازه.</span>
+        <span>
+          مطالعه بدون نیاز به حساب · <a href="/collections">مسیرهای مطالعه</a>
+        </span>
+      </footer>
+    </div>
+    <nav class="mobile-nav" aria-label="ناوبری موبایل">
+      {nav.map((n) => (
+        <a class="nav-link" href={n.href} aria-current={active === n.key ? 'page' : undefined}>
+          <Icon name={n.icon} />
+          <span>{n.label}</span>
+        </a>
+      ))}
+      <a class="nav-link" href="/app">
+        <Icon name="user" />
+        <span>حساب</span>
+      </a>
+    </nav>
+    <ReadingAssistant client:load />
+  </body>
+</html>

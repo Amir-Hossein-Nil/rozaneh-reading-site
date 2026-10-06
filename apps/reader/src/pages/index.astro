@@ -1,0 +1,73 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import CollectionCard from '../components/CollectionCard.astro';
+import ReadingPaths from '../components/ReadingPaths.astro';
+import { loadCatalog } from '../lib/catalog';
+import { Icon } from '@site/ui';
+let catalog: Awaited<ReturnType<typeof loadCatalog>> | undefined;
+try {
+  catalog = await loadCatalog();
+} catch {
+  Astro.response.status = 503;
+}
+const requested = Astro.url.searchParams.get('post');
+const posts = catalog?.posts ?? [];
+const clearBeliefsPosts = posts.filter((post) => post.collectionSlug === 'clear-beliefs');
+Astro.response.headers.set('Cache-Control', 'no-store');
+const featured =
+  posts.find((p) => p.slug === requested) ??
+  clearBeliefsPosts[Math.floor(Math.random() * clearBeliefsPosts.length)];
+const index = featured ? posts.indexOf(featured) : 0;
+const next = posts.length ? posts[(index + 1) % posts.length] : undefined;
+const homepageCollections = [
+  'clear-beliefs',
+  'life-with-ali',
+  'his-footsteps',
+  'philosophy-of-tears',
+].flatMap((slug) => catalog?.collections.filter((collection) => collection.slug === slug) ?? []);
+---
+
+<SiteLayout title="برای شما" active="home">
+  {featured ? (
+    <>
+      <PostCard
+        post={featured}
+        collection={catalog?.collections.find((c) => c.slug === featured.collectionSlug)}
+      />
+      {next && (
+        <div class="feed-next">
+          <a class="quiet-button" href={`/?post=${next.slug}`}>
+            پست بعدی
+            <Icon name="arrow" size={18} />
+          </a>
+        </div>
+      )}
+    </>
+  ) : (
+    <div class="empty-state">
+      <h1>مطالب به‌زودی برمی‌گردند</h1>
+      <p>محتوا در حال آماده‌سازی است. کمی بعد دوباره سر بزن.</p>
+      <a class="quiet-button" href="/">
+        تلاش دوباره
+      </a>
+    </div>
+  )}
+  {catalog && (
+    <section aria-labelledby="collection-heading">
+      <div class="intro-row">
+        <h2 id="collection-heading">مجموعه‌ها</h2>
+        <a href="/collections" class="quiet-button">
+          بقیه‌ی مجموعه‌ها
+        </a>
+      </div>
+      <div class="collection-grid">
+        {homepageCollections.map((c) => (
+          <CollectionCard collection={c} />
+        ))}
+      </div>
+      <p class="small-notice">هر مطلب را مستقل بخوان؛ اگر خواستی، مجموعه‌اش را هم دنبال کن.</p>
+    </section>
+  )}
+  {catalog && <ReadingPaths posts={catalog.posts} />}
+</SiteLayout>

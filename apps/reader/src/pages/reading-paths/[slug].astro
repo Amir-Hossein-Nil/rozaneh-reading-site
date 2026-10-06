@@ -1,0 +1,131 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import { loadCatalog } from '../../lib/catalog';
+import { resolveReadingPaths } from '../../lib/reading-paths';
+import { faNumber, readingMinutes } from '@site/content';
+import { Icon, EpisodeStatus } from '@site/ui';
+
+const catalog = await loadCatalog().catch(() => null);
+if (!catalog) return Astro.redirect('/unavailable', 302);
+const path = resolveReadingPaths(catalog.posts).find((path) => path.slug === Astro.params['slug']);
+if (!path) return Astro.redirect('/404', 302);
+const first = path.steps[0]?.post;
+---
+
+<SiteLayout title={path.title} description={path.description} active="home">
+  <div class="breadcrumb">
+    <a href="/#reading-paths-heading">مسیرهای خوانش</a>
+    <span>/</span>
+    <span>{path.title}</span>
+  </div>
+  <header class="page-heading collection-intro">
+    <span class="path-symbol" style={`--path-accent:${path.accent}`}>
+      <svg
+        width="30"
+        height="30"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.6"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+      >
+        <path d={path.symbol} />
+      </svg>
+    </span>
+    <h1>{path.title}</h1>
+    <p>{path.description}</p>
+    <p class="muted">
+      {faNumber(path.steps.length)} پست · {faNumber(path.minutes)} دقیقه مطالعه تقریبی
+    </p>
+    {first && (
+      <a class="primary-button" href={`/posts/${first.slug}?path=${path.slug}`}>
+        شروع مسیر <Icon name="arrow" size={18} />
+      </a>
+    )}
+  </header>
+  <div class="section-heading">
+    <h2>گام‌های این مسیر</h2>
+  </div>
+  <ol class="path-steps">
+    {path.steps.map(({ post, note }, index) => (
+      <li class="path-step">
+        <span class="episode-number" aria-label={`گام ${faNumber(index + 1)}`}>
+          {faNumber(index + 1)}
+        </span>
+        <div class="step-content">
+          <a href={`/posts/${post.slug}?path=${path.slug}`}>
+            <h3>{post.title}</h3>
+          </a>
+          <p>{note}</p>
+          <span class="step-meta">
+            {catalog.collections.find((c) => c.slug === post.collectionSlug)?.title ?? post.topic} ·{' '}
+            {faNumber(readingMinutes(post.originalText))} دقیقه
+          </span>
+        </div>
+        <EpisodeStatus id={post.id} client:load />
+      </li>
+    ))}
+  </ol>
+</SiteLayout>
+
+<style>
+  .path-symbol {
+    display: grid;
+    place-items: center;
+    width: 58px;
+    height: 58px;
+    border-radius: 18px;
+    color: var(--text);
+    background: color-mix(in srgb, var(--path-accent) 18%, var(--surface));
+  }
+  .path-steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 14px;
+  }
+  .path-step {
+    display: flex;
+    align-items: start;
+    gap: 18px;
+    padding: 24px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    background: var(--surface);
+  }
+  .episode-number {
+    flex-shrink: 0;
+  }
+  .step-content {
+    flex: 1;
+    min-width: 0;
+  }
+  .step-content h3 {
+    margin: 0 0 8px;
+    font-size: 20px;
+  }
+  .step-content a:hover {
+    color: var(--action);
+  }
+  .step-content p {
+    margin: 0 0 10px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .step-meta {
+    color: var(--muted);
+    font-size: 12px;
+  }
+  @media (max-width: 700px) {
+    .path-step {
+      padding: 18px 14px;
+      gap: 10px;
+    }
+    .step-content h3 {
+      font-size: 17px;
+    }
+  }
+</style>

@@ -1,0 +1,14 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+Astro.response.status = 404;
+---
+
+<SiteLayout title="مطلب پیدا نشد">
+  <div class="empty-state">
+    <h1>این صفحه اینجا نیست</h1>
+    <p>از مطالب موجود، یک موضوع تازه پیدا کن.</p>
+    <a class="primary-button" href="/">
+      بازگشت به مطالب
+    </a>
+  </div>
+</SiteLayout>

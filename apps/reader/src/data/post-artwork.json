@@ -1,0 +1,863 @@
+{
+  "bale-main:message-0244": {
+    "src": "/images/posts/natural-main-message-0244-v1.webp",
+    "alt": "دوچرخه‌سواری در حال بستن کلاه ایمنی",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0047": {
+    "src": "/images/posts/natural-main-message-0047-v1.webp",
+    "alt": "پیوند زدن شاخهٔ درخت با حوصله در باغ",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0032": {
+    "src": "/images/posts/natural-main-message-0032-v1.webp",
+    "alt": "هدیه دادن لباسی ساده میان دو دوست",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0038": {
+    "src": "/images/posts/natural-main-message-0038-v1.webp",
+    "alt": "تعمیر چرخ دوچرخه در کنار خیابان بارانی",
+    "position": "45% 15%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0167": {
+    "src": "/images/posts/natural-main-message-0167-v1.webp",
+    "alt": "سرخسی ظریف در شکاف سنگ خیس کنار رود",
+    "position": "43% 30%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0170": {
+    "src": "/images/posts/natural-main-message-0170-v1.webp",
+    "alt": "صندلی خالی و چای کنار پنجرهٔ بارانی",
+    "position": "45% 30%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0191": {
+    "src": "/images/posts/natural-main-message-0191-v1.webp",
+    "alt": "چهرهٔ جوانی پشت شیشهٔ اتوبوس و بازتاب خیابان",
+    "position": "50% 10%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0194": {
+    "src": "/images/posts/natural-main-message-0194-v1.webp",
+    "alt": "دو دوست در شهربازی؛ لحظه‌ای گرم و گذرا",
+    "position": "44% 0%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0247": {
+    "src": "/images/posts/natural-main-message-0247-v1.webp",
+    "alt": "رهگذری در دوراهی کوچه‌های قدیمی",
+    "position": "52% 25%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0253": {
+    "src": "/images/posts/natural-main-message-0253-v1.webp",
+    "alt": "گذاشتن تلفن روی میز و مکث پیش از واکنش",
+    "position": "40% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0039": {
+    "src": "/images/posts/natural-main-message-0039-v1.webp",
+    "alt": "پزشکی که با حوصله به بیمار سالمند گوش می‌دهد",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0049": {
+    "src": "/images/posts/natural-main-message-0049-v1.webp",
+    "alt": "قطب‌نما کنار جانماز روی سکویی آفتابی",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0059": {
+    "src": "/images/posts/natural-main-message-0059-v1.webp",
+    "alt": "دانشجویی در حال بررسی یک معمای مکانیکی چوبی",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0008": {
+    "src": "/images/posts/natural-main-message-0008-v1.webp",
+    "alt": "نجاری در حال بررسی اتصال شکستهٔ چوب؛ یادگرفتن از دشواری",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0014": {
+    "src": "/images/posts/natural-main-message-0014-v1.webp",
+    "alt": "ورزشکاری در خط شروع دویدن؛ تمرکز و مهار شتاب",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0027": {
+    "src": "/images/posts/natural-main-message-0027-v1.webp",
+    "alt": "لولاهای قدیمی و دری که به‌آرامی باز می‌شود",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0067": {
+    "src": "/images/posts/natural-main-message-0067-v1.webp",
+    "alt": "کفش‌های کودک و بزرگسال در آستانهٔ خانه",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0107": {
+    "src": "/images/posts/natural-main-message-0107-v1.webp",
+    "alt": "معلمی با کتاب‌ها در یک کلاس ساده",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0139": {
+    "src": "/images/posts/natural-main-message-0139-v1.webp",
+    "alt": "در بازِ راهرویی خلوت، رو به روشنایی روز",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0144": {
+    "src": "/images/posts/natural-main-message-0144-v1.webp",
+    "alt": "پرندگان مهاجر در حال تغییر مسیر بالای ساحل",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0155": {
+    "src": "/images/posts/natural-main-message-0155-v1.webp",
+    "alt": "دست‌هایی در حال بیرون آوردن یادگاری قدیمی از کشو",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0187": {
+    "src": "/images/posts/natural-main-message-0187-v1.webp",
+    "alt": "گل کوچکی که میان سنگفرش خیابان روییده است",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0193": {
+    "src": "/images/posts/natural-main-message-0193-v1.webp",
+    "alt": "چتری در باران و نهالی در فضای بیرون",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0200": {
+    "src": "/images/posts/natural-main-message-0200-v1.webp",
+    "alt": "مسیر جنگلی آرام در مه ملایم صبح",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0209": {
+    "src": "/images/posts/natural-main-message-0209-v1.webp",
+    "alt": "دست کوهنوردی که گره طناب ایمنی را بررسی می‌کند",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0217": {
+    "src": "/images/posts/natural-main-message-0217-v1.webp",
+    "alt": "نگاه صادقانه در آینهٔ یک اتاق ساده",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0222": {
+    "src": "/images/posts/natural-main-message-0222-v1.webp",
+    "alt": "دست‌های هنرمندی در حال ترمیم ظرف سرامیکی شکسته",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0237": {
+    "src": "/images/posts/natural-main-message-0237-v1.webp",
+    "alt": "برگ پاییزی کنار جوانهٔ تازه در خاک",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0249": {
+    "src": "/images/posts/natural-main-message-0249-v1.webp",
+    "alt": "گره بازِ طناب کنار درِ بازِ یک محوطه",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0254": {
+    "src": "/images/posts/natural-main-message-0254-v1.webp",
+    "alt": "جوانه‌های تازه در خاک مرطوب باغچه",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0261": {
+    "src": "/images/posts/natural-main-message-0261-v1.webp",
+    "alt": "دست‌هایی که به عبور یک کوهنورد از آب کمک می‌کنند",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0012": {
+    "src": "/images/posts/natural-main-message-0012-v1.webp",
+    "alt": "تماشای ماه با تلسکوپی کوچک در حیاط",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0040": {
+    "src": "/images/posts/natural-main-message-0040-v1.webp",
+    "alt": "مسافری در ورودی حیاط زیارتگاه؛ حس بازگشت و همراهی",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0045": {
+    "src": "/images/posts/natural-main-message-0045-v1.webp",
+    "alt": "کیک خانگی و گل‌ها روی میز معلم",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0165": {
+    "src": "/images/posts/natural-main-message-0165-v1.webp",
+    "alt": "دود آرام عود در اتاق یک گردهمایی",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0243": {
+    "src": "/images/posts/natural-main-message-0243-v1.webp",
+    "alt": "تلسکوپی در رصدخانه زیر آسمان شب",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0259": {
+    "src": "/images/posts/natural-main-message-0259-v1.webp",
+    "alt": "دو لباس از نسل‌های متفاوت بر چوب‌لباسی خانه",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-supplemental:message-010": {
+    "src": "/images/posts/natural-supplemental-message-010-v1.webp",
+    "alt": "دست زنبوردار در حال برداشت عسل",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-supplemental:message-011": {
+    "src": "/images/posts/natural-supplemental-message-011-v1.webp",
+    "alt": "رهگذری منتظر در گذرگاه خلوت صبح",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0002": {
+    "src": "/images/posts/natural-main-message-0002-v1.webp",
+    "alt": "درِ روشن یک خانه در انتهای خیابان خیس",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0009": {
+    "src": "/images/posts/natural-main-message-0009-v1.webp",
+    "alt": "شکوفه‌های تازه بر فراز دیوار باغ",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0018": {
+    "src": "/images/posts/natural-main-message-0018-v1.webp",
+    "alt": "مسافران منتظر در سکوی قطار پیش از طلوع",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0023": {
+    "src": "/images/posts/natural-main-message-0023-v1.webp",
+    "alt": "دست‌هایی در حال تمرین دوختن با چرخ خیاطی",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0044": {
+    "src": "/images/posts/natural-main-message-0044-v1.webp",
+    "alt": "دفتر و قلم کنار چای در خلوت خانه",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0054": {
+    "src": "/images/posts/natural-main-message-0054-v1.webp",
+    "alt": "چشم‌انداز چراغ‌های شهر از تپه‌های تهران",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0061": {
+    "src": "/images/posts/natural-main-message-0061-v1.webp",
+    "alt": "میز آمادهٔ پذیرایی و یک صندلی خالی",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0069": {
+    "src": "/images/posts/natural-main-message-0069-v1.webp",
+    "alt": "کمک کوچک و بی‌هیاهو به پرنده‌ای در خیابان",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0102": {
+    "src": "/images/posts/natural-main-message-0102-v1.webp",
+    "alt": "شادی کودک هنگام گرفتن توپ از یک بزرگسال",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0141": {
+    "src": "/images/posts/natural-main-message-0141-v1.webp",
+    "alt": "طبلِ استفاده‌شده در فضای پشت یک گردهمایی",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0151": {
+    "src": "/images/posts/natural-main-message-0151-v1.webp",
+    "alt": "گوشه‌ای آرام برای دعا کنار پنجرهٔ صبح",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0156": {
+    "src": "/images/posts/natural-main-message-0156-v1.webp",
+    "alt": "گیاهی که رو به روشنایی پنجره رشد کرده است",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0188": {
+    "src": "/images/posts/natural-main-message-0188-v1.webp",
+    "alt": "دست‌های سالمند و جوان روی نیمکت قدیمی",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0203": {
+    "src": "/images/posts/natural-main-message-0203-v1.webp",
+    "alt": "دست‌های همسایه‌ها در حال آماده کردن غذا",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0211": {
+    "src": "/images/posts/natural-main-message-0211-v1.webp",
+    "alt": "خلوت دلتنگی با فنجان گرم در بالکن",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0215": {
+    "src": "/images/posts/natural-main-message-0215-v1.webp",
+    "alt": "جانمازی رو به درِ باز باغ در گرگ‌ومیش",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0228": {
+    "src": "/images/posts/natural-main-message-0228-v1.webp",
+    "alt": "مسیر صعود از دامنه به روشنایی بالای ابر",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0240": {
+    "src": "/images/posts/natural-main-message-0240-v1.webp",
+    "alt": "گوشی برداشته‌شدهٔ تلفن روی میز چوبی",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0252": {
+    "src": "/images/posts/natural-main-message-0252-v1.webp",
+    "alt": "چترِ باز کنار ورودی بارانی و قدمی در بیرون",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0258": {
+    "src": "/images/posts/natural-main-message-0258-v1.webp",
+    "alt": "دو برادر در حال جابه‌جا کردن وسیله‌ای سنگین",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0263": {
+    "src": "/images/posts/natural-main-message-0263-v1.webp",
+    "alt": "قایق‌های منتظر در بندر آرام",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0265": {
+    "src": "/images/posts/natural-main-message-0265-v1.webp",
+    "alt": "یادگرفتن از پخت ناموفق نان در یک نانوایی",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-supplemental:message-007": {
+    "src": "/images/posts/natural-supplemental-message-007-v1.webp",
+    "alt": "حیاط مدرسه و کوله‌پشتی در صبح پاییزی",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-supplemental:message-014": {
+    "src": "/images/posts/natural-supplemental-message-014-v1.webp",
+    "alt": "فانوسی کوچک در مسیر تاریک اردوگاه",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0007": {
+    "src": "/images/posts/natural-main-message-0007-v1.webp",
+    "alt": "کفش‌های فرسوده و پتوی اضطراری در سکوت صبح",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0013": {
+    "src": "/images/posts/natural-main-message-0013-v1.webp",
+    "alt": "آشپزی در حال مقایسهٔ نان سوخته با پخت تازه",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0019": {
+    "src": "/images/posts/natural-main-message-0019-v1.webp",
+    "alt": "منظرهٔ ایستگاهی که از پشت پنجرهٔ قطار دور می‌شود",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0056": {
+    "src": "/images/posts/natural-main-message-0056-v1.webp",
+    "alt": "دست‌هایی که هنگام رفتن قطار از هم جدا می‌شوند",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0066": {
+    "src": "/images/posts/natural-main-message-0066-v1.webp",
+    "alt": "تمیز کردن یک اشتباه کوچک در آشپزخانه با همراهی پدر",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0084": {
+    "src": "/images/posts/natural-main-message-0084-v1.webp",
+    "alt": "دانشجویی در حال بازبینی طرح و شروع صفحه‌ای تازه",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0138": {
+    "src": "/images/posts/natural-main-message-0138-v1.webp",
+    "alt": "مسیر باریک کنار صخره و حفاظ فرسوده",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0142": {
+    "src": "/images/posts/natural-main-message-0142-v1.webp",
+    "alt": "مرتب کردن یادگاری‌ها و نوشتن یادداشتی برای دیگران",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0154": {
+    "src": "/images/posts/natural-main-message-0154-v1.webp",
+    "alt": "دست‌های سفالگر در حال هدایت ظرف روی چرخ",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0160": {
+    "src": "/images/posts/natural-main-message-0160-v1.webp",
+    "alt": "تعمیر صندلی همسایه در یک کارگاه ساده",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0184": {
+    "src": "/images/posts/natural-main-message-0184-v1.webp",
+    "alt": "دادن محصول باغ از پشت مرز دو خانه",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0195": {
+    "src": "/images/posts/natural-main-message-0195-v1.webp",
+    "alt": "برنامه‌ریزی با قلم برای یک اتاق کوچک",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0207": {
+    "src": "/images/posts/natural-main-message-0207-v1.webp",
+    "alt": "تمیز کردن سازِ هدیه‌گرفته‌شده با دقت",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0212": {
+    "src": "/images/posts/natural-main-message-0212-v1.webp",
+    "alt": "بساط سادهٔ پیک‌نیک بعد از رفتن دوستان",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0216": {
+    "src": "/images/posts/natural-main-message-0216-v1.webp",
+    "alt": "تعمیر کفش کهنه در خانه؛ مراقبت در میان نگرانی مالی",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0220": {
+    "src": "/images/posts/natural-main-message-0220-v1.webp",
+    "alt": "دانشجویی که به توضیح استادکار گوش می‌دهد",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0026": {
+    "src": "/images/posts/natural-main-message-0026-v1.webp",
+    "alt": "بستهٔ سفر و یک گل روی نیمکت حیاط",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0065": {
+    "src": "/images/posts/natural-main-message-0065-v1.webp",
+    "alt": "شمعی کوچک و پارچهٔ تیره کنار ورودی آرام",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0071": {
+    "src": "/images/posts/natural-main-message-0071-v1.webp",
+    "alt": "میز مطالعه و عینک کنار کتاب‌های بسته",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0143": {
+    "src": "/images/posts/natural-main-message-0143-v1.webp",
+    "alt": "گل سفید و پارچهٔ تاخورده در روشنایی صبح",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0230": {
+    "src": "/images/posts/natural-main-message-0230-v1.webp",
+    "alt": "کمک یک بازیکن به حریف برای بلند شدن",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0248": {
+    "src": "/images/posts/natural-main-message-0248-v1.webp",
+    "alt": "گذاشتن خریدهای روزانه در کیسهٔ همسایه",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0260": {
+    "src": "/images/posts/natural-main-message-0260-v1.webp",
+    "alt": "دادن نان تازه به مشتری سالمند",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0264": {
+    "src": "/images/posts/natural-main-message-0264-v1.webp",
+    "alt": "عرشهٔ کشتی و ساحلی که در دوردست می‌ماند",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0150": {
+    "src": "/images/posts/natural-main-message-0150-v1.webp",
+    "alt": "نشانه‌های کوچک سنگی در مسیر دامنه",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0153": {
+    "src": "/images/posts/natural-main-message-0153-v1.webp",
+    "alt": "گوش‌دادن با حوصله میان دو نسل در کارگاه",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0158": {
+    "src": "/images/posts/natural-main-message-0158-v1.webp",
+    "alt": "دست‌های نوجوانان در حال ساخت معما با مقوا",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0183": {
+    "src": "/images/posts/natural-main-message-0183-v1.webp",
+    "alt": "گل آفتابگردانی آسیب‌دیده از باران رو به نور",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0213": {
+    "src": "/images/posts/natural-main-message-0213-v1.webp",
+    "alt": "کفش‌های راه‌رفته و چای در استراحتگاه کنار مسیر",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0218": {
+    "src": "/images/posts/natural-main-message-0218-v1.webp",
+    "alt": "شال تیره و کفش‌های کوچک در راهروی خلوت",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0219": {
+    "src": "/images/posts/natural-main-message-0219-v1.webp",
+    "alt": "صندلی خالی آرایشگاه و ابزار مرتب‌شده",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0229": {
+    "src": "/images/posts/natural-main-message-0229-v1.webp",
+    "alt": "پنجرهٔ بستهٔ حیاط و روشنایی پشت پرده",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0161": {
+    "src": "/images/posts/natural-main-message-0161-v1.webp",
+    "alt": "کفش‌های گردهمایی یادبود در کنار یک گل",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0162": {
+    "src": "/images/posts/natural-main-message-0162-v1.webp",
+    "alt": "نگاه دلتنگ به عکسی قدیمی در دست",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0163": {
+    "src": "/images/posts/natural-main-message-0163-v1.webp",
+    "alt": "انتظار خاموش روی نیمکت بیمارستان",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0169": {
+    "src": "/images/posts/natural-main-message-0169-v1.webp",
+    "alt": "گیاه پژمرده کنار آب روی پنجره",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0172": {
+    "src": "/images/posts/natural-main-message-0172-v1.webp",
+    "alt": "سالن نمایش خالی پس از تمرین",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0174": {
+    "src": "/images/posts/natural-main-message-0174-v1.webp",
+    "alt": "سرگرمی با صفحهٔ تلفن در کنار گلی نادیده‌مانده",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0241": {
+    "src": "/images/posts/natural-main-message-0241-v1.webp",
+    "alt": "بازگرداندن کیف گمشده در بازار",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0262": {
+    "src": "/images/posts/natural-main-message-0262-v1.webp",
+    "alt": "گوش دادن به والدین به جای خیره ماندن به صفحه",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0005": {
+    "src": "/images/posts/natural-main-message-0005-v1.webp",
+    "alt": "مطالعه کنار پنجره با خرما و آب روی میز",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0025": {
+    "src": "/images/posts/natural-main-message-0025-v1.webp",
+    "alt": "میکروفن و ضبط‌کنندهٔ ساده روی فرش",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0175": {
+    "src": "/images/posts/natural-main-message-0175-v1.webp",
+    "alt": "گذاشتن ابزار کنار و باز کردن در برای دیگری",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0176": {
+    "src": "/images/posts/natural-main-message-0176-v1.webp",
+    "alt": "بادکنک‌های کم‌باد و صندلی‌های تاخورده پس از جشن",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0177": {
+    "src": "/images/posts/natural-main-message-0177-v1.webp",
+    "alt": "لمس آرام قاب عکس خانوادگی",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0178": {
+    "src": "/images/posts/natural-main-message-0178-v1.webp",
+    "alt": "لیوان‌های چایِ گردهمایی روی سینی چوبی",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0179": {
+    "src": "/images/posts/natural-main-message-0179-v1.webp",
+    "alt": "پارچه، گلبرگ‌ها و تسبیح در خلوت پس از یادبود",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0182": {
+    "src": "/images/posts/natural-main-message-0182-v1.webp",
+    "alt": "دست‌های شنوندگان در یک حلقهٔ گفت‌وگو",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0024": {
+    "src": "/images/posts/natural-main-message-0024-v1.webp",
+    "alt": "گفت‌وگوی چند جوان دور سینی چای",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0036": {
+    "src": "/images/posts/natural-main-message-0036-v1.webp",
+    "alt": "دفترهای درس کنار جوانه‌ای کوچک",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0137": {
+    "src": "/images/posts/natural-main-message-0137-v1.webp",
+    "alt": "ایستادن کنار آینه با کتابی در دست",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0145": {
+    "src": "/images/posts/natural-main-message-0145-v1.webp",
+    "alt": "دفترها و قلم‌های استفاده‌شده در اتاق مطالعهٔ جوانان",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0146": {
+    "src": "/images/posts/natural-main-message-0146-v1.webp",
+    "alt": "سهیم شدن در نان دور یک سفره",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0152": {
+    "src": "/images/posts/natural-main-message-0152-v1.webp",
+    "alt": "ادامهٔ نقاشی با وجود خط‌های ناتمام و اشتباه",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0198": {
+    "src": "/images/posts/natural-main-message-0198-v1.webp",
+    "alt": "دستهٔ بازی کنار گذاشته‌شده و ساعت در اتاق",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0231": {
+    "src": "/images/posts/natural-main-message-0231-v1.webp",
+    "alt": "همکاری همسایه‌ها برای چراغانی سادهٔ حیاط",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0037": {
+    "src": "/images/posts/natural-main-message-0037-v1.webp",
+    "alt": "دانشجویی که از دفتر به پنجرهٔ کلاس نگاه می‌کند",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0046": {
+    "src": "/images/posts/natural-main-message-0046-v1.webp",
+    "alt": "دفتر، فنجان و سایهٔ برگ‌ها روی میز خلوت",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0053": {
+    "src": "/images/posts/natural-main-message-0053-v1.webp",
+    "alt": "بررسی یک وسیلهٔ معمولی با همراهی معلم",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  },
+  "bale-main:message-0070": {
+    "src": "/images/posts/natural-main-message-0070-v1.webp",
+    "alt": "دری باز و دستگیره‌ای آزاد در روشنایی راهرو",
+    "position": "50% 20%",
+    "width": 1536,
+    "height": 1024
+  }
+}

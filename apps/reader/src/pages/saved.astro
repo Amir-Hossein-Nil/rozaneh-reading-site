@@ -1,0 +1,22 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { loadCatalog } from '../lib/catalog';
+import { SavedPosts } from '@site/ui';
+const catalog = await loadCatalog().catch(() => null);
+if (!catalog) return Astro.redirect('/unavailable', 302);
+---
+
+<SiteLayout title="ذخیره‌ها" active="saved">
+  <header class="page-heading">
+    <h1>برای بعد نگه داشته‌ای</h1>
+    <p class="muted">
+      با ورود به حساب، نشانک‌هایت روی دستگاه‌های دیگر هم در دسترس‌اند. نشانک مهمان فقط در همین
+      مرورگر می‌ماند.
+    </p>
+  </header>
+  <SavedPosts
+    posts={catalog.posts.map((p) => ({ id: p.id, title: p.title, slug: p.slug }))}
+    client:load
+  />
+  <noscript>برای نمایش نشانک‌ها، JavaScript لازم است. متن مطالب بدون آن قابل خواندن است.</noscript>
+</SiteLayout>

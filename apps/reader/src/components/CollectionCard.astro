@@ -1,0 +1,20 @@
+---
+import type { Collection } from '@site/contracts';
+import { Icon } from '@site/ui';
+interface Props {
+  collection: Collection;
+}
+const { collection: c } = Astro.props;
+---
+
+<a
+  class="collection-card"
+  href={`/collections/${c.slug}`}
+  style={`--collection-accent:${c.accent}`}
+>
+  <span class="collection-symbol">
+    <Icon name="book" />
+  </span>
+  <h3>{c.title}</h3>
+  <p>{c.subtitle}</p>
+</a>

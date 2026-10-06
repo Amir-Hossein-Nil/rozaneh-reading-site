@@ -1,0 +1,20 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import CollectionCard from '../../components/CollectionCard.astro';
+import { loadCatalog } from '../../lib/catalog';
+const catalog = await loadCatalog().catch(() => null);
+if (!catalog) return Astro.redirect('/unavailable', 302);
+---
+
+<SiteLayout title="مجموعه‌ها" active="collections">
+  <header class="page-heading">
+    <span class="muted">چند مسیر، برای چند پرسش</span>
+    <h1>مجموعه‌های مطالب</h1>
+    <p class="muted">یک موضوع را انتخاب کن؛ خواندن از هر مطلبی ممکن است.</p>
+  </header>
+  <div class="collection-grid">
+    {catalog.collections.map((c) => (
+      <CollectionCard collection={c} />
+    ))}
+  </div>
+</SiteLayout>

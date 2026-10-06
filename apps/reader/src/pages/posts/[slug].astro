@@ -1,0 +1,182 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import { loadCatalog } from '../../lib/catalog';
+import { orderedEpisodes, readingMinutes, faNumber, presentationBlocks } from '@site/content';
+import { Icon, ReadingTools, PostActions, Comments } from '@site/ui';
+import { postArtwork } from '../../lib/post-artwork';
+import { resolveReadingPaths } from '../../lib/reading-paths';
+const catalog = await loadCatalog().catch(() => null);
+if (!catalog) return Astro.redirect('/unavailable', 302);
+const post = catalog.posts.find((p) => p.slug === Astro.params['slug']);
+if (!post) return Astro.redirect('/404', 302);
+const collection = catalog.collections.find((c) => c.slug === post.collectionSlug);
+const artwork = postArtwork(post.id);
+const readingPath = resolveReadingPaths(catalog.posts).find(
+  (path) =>
+    path.slug === Astro.url.searchParams.get('path') &&
+    path.steps.some((step) => step.post.id === post.id),
+);
+const episodes = readingPath
+  ? readingPath.steps.map((step) => step.post)
+  : post.collectionSlug
+    ? orderedEpisodes(catalog.posts, post.collectionSlug)
+    : [];
+const index = episodes.findIndex((p) => p.id === post.id);
+const previous = episodes[index - 1];
+const next = episodes[index + 1];
+const episodeLink = (slug: string) =>
+  `/posts/${slug}${readingPath ? `?path=${readingPath.slug}` : ''}`;
+const related = catalog.posts
+  .filter(
+    (p) => p.id !== post.id && (p.topic === post.topic || p.collectionSlug === post.collectionSlug),
+  )
+  .slice(0, 3);
+---
+
+<SiteLayout title={post.title} active="collections">
+  <div class="article-wrapper">
+    <div class="breadcrumb">
+      <a href="/">روزنه</a>
+      <span>/</span>
+      {collection && <a href={`/collections/${collection.slug}`}>{collection.title}</a>}
+    </div>
+    <header class="article-header">
+      {readingPath && (
+        <div class="path-context">
+          <a href={`/reading-paths/${readingPath.slug}`}>مسیر خوانش: {readingPath.title}</a>
+          <span>
+            گام {faNumber(index + 1)} از {faNumber(episodes.length)}
+          </span>
+        </div>
+      )}
+      {collection ? (
+        <a class="eyebrow" href={`/collections/${collection.slug}`}>
+          {collection.title}
+        </a>
+      ) : (
+        <span class="eyebrow">{post.topic}</span>
+      )}
+      <h1>{post.title}</h1>
+      <div class="article-meta">
+        {post.episodeNumber && <span>قسمت {faNumber(post.episodeNumber)}</span>}
+        <span>
+          <Icon name="clock" size={16} /> {faNumber(readingMinutes(post.originalText))} دقیقه مطالعه
+          تقریبی
+        </span>
+        <span>{post.topic}</span>
+      </div>
+    </header>
+    <div class="article-image">
+      <img
+        src={artwork?.src ?? '/images/approved-cover.webp'}
+        alt={artwork?.alt ?? ''}
+        width={artwork?.width ?? 1200}
+        height={artwork?.height ?? 650}
+        style={artwork ? `object-position: ${artwork.position}` : undefined}
+      />
+    </div>
+    <section class="article-panel" aria-label="متن کامل مطلب">
+      <ReadingTools id={post.id} client:load />
+      {post.dataset === 'bale-main' &&
+        post.sourceIds.some((id) =>
+          ['message-0025', 'message-0096', 'message-0231'].includes(id),
+        ) && (
+          <p class="small-notice">
+            این پیام به یک فایل یا محتوای دیگر اشاره دارد. فایل همراه در دادهٔ منبع موجود نیست؛ متن
+            پیام کامل نمایش داده شده است.
+          </p>
+        )}
+      <div id="article-body" class="article-body" data-source-id={post.sourceIds[0]}>
+        {presentationBlocks(post.originalText).map((text, i) => (
+          <p id={`block-${i}`}>{text}</p>
+        ))}
+      </div>
+      <div class="article-source">
+        <PostActions id={post.id} title={post.title} path={`/posts/${post.slug}`} client:load />
+        <p>
+          شناسه منبع: <bdi>{post.sourceIds.join(' · ')}</bdi> · تاریخ انتشار منبع مشخص نیست.
+        </p>
+        <details>
+          <summary>مشاهده متن اصلی بدون بخش‌بندی</summary>
+          <pre>{post.originalText}</pre>
+        </details>
+      </div>
+    </section>
+    <nav
+      class="article-navigation"
+      aria-label={readingPath ? 'گام‌های مسیر خوانش' : 'قسمت‌های مجموعه'}
+    >
+      {previous ? (
+        <a rel="prev" href={episodeLink(previous.slug)}>
+          <small>
+            {readingPath
+              ? `گام قبلی · ${faNumber(index)}`
+              : `قسمت قبلی · ${previous.episodeNumber ? faNumber(previous.episodeNumber) : 'بدون شماره'}`}
+          </small>
+          {previous.title}
+        </a>
+      ) : (
+        <span></span>
+      )}
+      {next ? (
+        <a rel="next" href={episodeLink(next.slug)}>
+          <small>
+            {readingPath
+              ? `گام بعدی · ${faNumber(index + 2)}`
+              : `قسمت بعدی · ${next.episodeNumber ? faNumber(next.episodeNumber) : 'بدون شماره'}`}
+          </small>
+          {next.title}
+        </a>
+      ) : readingPath ? (
+        <a href={`/reading-paths/${readingPath.slug}`}>
+          <small>به آخر مسیر رسیدی</small>بازگشت به گام‌های مسیر
+        </a>
+      ) : (
+        <span></span>
+      )}
+    </nav>
+    {related.length > 0 && (
+      <section>
+        <div class="section-heading">
+          <h2>شاید این‌ها هم برایت جالب باشد</h2>
+        </div>
+        <div class="related-grid">
+          {related.map((p) => (
+            <a class="related-card" href={`/posts/${p.slug}`}>
+              <img
+                src={postArtwork(p.id)?.src ?? '/images/approved-cover.webp'}
+                alt=""
+                width="400"
+                height="210"
+                loading="lazy"
+              />
+              <div>
+                <span class="muted">{p.topic}</span>
+                <h3>{p.title}</h3>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+    <Comments slug={post.slug} client:load />
+  </div>
+</SiteLayout>
+
+<style>
+  .path-context {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-block-end: 20px;
+    padding: 14px 18px;
+    background: var(--action-soft);
+    color: var(--action);
+    border-radius: 14px;
+    font-size: 14px;
+  }
+  .path-context a {
+    font-weight: 700;
+  }
+</style>

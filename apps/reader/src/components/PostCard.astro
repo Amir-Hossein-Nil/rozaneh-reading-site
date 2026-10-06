@@ -1,0 +1,65 @@
+---
+import type { Post, Collection } from '@site/contracts';
+import { Icon, PostActions } from '@site/ui';
+import { postArtwork } from '../lib/post-artwork';
+interface Props {
+  post: Post;
+  collection?: Collection | undefined;
+}
+const { post, collection } = Astro.props;
+const artwork = postArtwork(post.id);
+---
+
+<section class="hero-card" aria-labelledby="featured-title">
+  <div class="cover-art" aria-hidden="true">
+    {artwork ? (
+      <img
+        class="cover-original"
+        src={artwork.src}
+        alt=""
+        width={artwork.width}
+        height={artwork.height}
+        fetchpriority="high"
+        style={`object-position: ${artwork.position}`}
+      />
+    ) : (
+      <>
+        <img
+          class="cover-mono"
+          src="/images/approved-lock.webp"
+          alt=""
+          width="480"
+          height="415"
+          fetchpriority="high"
+        />
+        <img
+          class="cover-color"
+          src="/images/approved-care.webp"
+          alt=""
+          width="415"
+          height="415"
+          fetchpriority="high"
+        />
+        <span class="cover-divider"></span>
+      </>
+    )}
+  </div>
+  <div class="hero-content">
+    <div class="hero-topline">
+      <span class="topic-pill">{post.topic}</span>
+      {collection && (
+        <a class="hero-source" href={`/collections/${collection.slug}`}>
+          {collection.title}
+        </a>
+      )}
+    </div>
+    <h1 id="featured-title">{post.title}</h1>
+    <div class="hero-bottom">
+      <a class="primary-button" href={`/posts/${post.slug}`}>
+        بیشتر بخوان
+        <Icon name="arrow" size={20} />
+      </a>
+      <PostActions id={post.id} title={post.title} path={`/posts/${post.slug}`} client:load />
+    </div>
+  </div>
+</section>
