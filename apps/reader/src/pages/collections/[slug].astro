@@ -1,0 +1,53 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import { loadCatalog } from '../../lib/catalog';
+import { orderedEpisodes, faNumber, readingMinutes } from '@site/content';
+import { EpisodeStatus, Icon } from '@site/ui';
+const catalog = await loadCatalog().catch(() => null);
+if (!catalog) return Astro.redirect('/unavailable', 302);
+const collection = catalog.collections.find((c) => c.slug === Astro.params['slug']);
+if (!collection) return Astro.redirect('/404', 302);
+const posts = orderedEpisodes(catalog.posts, collection.slug);
+const first = posts[0];
+---
+
+<SiteLayout title={collection.title} active="collections">
+  <div class="breadcrumb">
+    <a href="/collections">مجموعه‌ها</a>
+    <span>/</span>
+    <span>{collection.title}</span>
+  </div>
+  <header class="page-heading collection-intro">
+    <span class="muted">{collection.subtitle}</span>
+    <h1>{collection.title}</h1>
+    <p>{collection.description}</p>
+    {first && (
+      <a class="primary-button" href={`/posts/${first.slug}`}>
+        اولین قسمت موجود
+        <Icon name="arrow" size={18} />
+      </a>
+    )}
+  </header>
+  <div class="section-heading">
+    <h2>قسمت‌ها</h2>
+    <span class="muted">{faNumber(posts.length)} مطلب موجود</span>
+  </div>
+  <p class="small-notice">
+    شماره‌ها از متن اصلی‌اند. مطالب هم‌شماره جدا حفظ شده‌اند؛ مطالب بدون شماره پس از قسمت‌های
+    شماره‌دار قرار دارند.
+  </p>
+  <div class="episode-list">
+    {posts.map((p) => (
+      <div class="episode-row">
+        <span class="episode-number">{p.episodeNumber ? faNumber(p.episodeNumber) : '—'}</span>
+        <a href={`/posts/${p.slug}`}>{p.title}</a>
+        <EpisodeStatus id={p.id} client:load />
+        <span class="episode-meta">
+          <Icon name="clock" size={16} />
+          {faNumber(readingMinutes(p.originalText))} دقیقه
+        </span>
+        <Icon name="arrow" size={18} />
+      </div>
+    ))}
+  </div>
+</SiteLayout>

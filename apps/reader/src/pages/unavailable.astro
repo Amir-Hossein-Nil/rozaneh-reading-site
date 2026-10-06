@@ -1,0 +1,15 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+Astro.response.status = 503;
+Astro.response.headers.set('Retry-After', '15');
+---
+
+<SiteLayout title="مطالب موقتاً در دسترس نیستند">
+  <section class="empty-state">
+    <h1>کمی بعد دوباره سر بزن</h1>
+    <p>بارگیری مطالب انجام نشد. ذخیره‌های حساب تو تغییری نکرده‌اند.</p>
+    <a class="primary-button" href="/">
+      تلاش دوباره
+    </a>
+  </section>
+</SiteLayout>

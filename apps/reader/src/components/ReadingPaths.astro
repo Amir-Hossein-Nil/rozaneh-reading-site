@@ -1,0 +1,209 @@
+---
+import type { Post } from '@site/contracts';
+import { faNumber } from '@site/content';
+import { resolveReadingPaths } from '../lib/reading-paths';
+import { Icon } from '@site/ui';
+
+interface Props {
+  posts: Post[];
+}
+
+const paths = resolveReadingPaths(Astro.props.posts);
+---
+
+{paths.length > 0 && (
+  <section class="reading-paths" aria-labelledby="reading-paths-heading">
+    <header class="paths-heading">
+      <span class="paths-eyebrow">مسیرهای خوانش</span>
+      <h2 id="reading-paths-heading">یک مفهوم، چند نگاه</h2>
+      <p>پست‌های هم‌مفهوم از مجموعه‌های مختلف را در یک مسیر پیوسته بخوان.</p>
+    </header>
+    <div class="paths-grid">
+      {paths.map((path, index) => (
+        <a
+          class="path-card"
+          href={`/reading-paths/${path.slug}`}
+          style={`--path-accent:${path.accent}`}
+        >
+          <div class="path-top">
+            <span class="path-symbol">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d={path.symbol} />
+              </svg>
+            </span>
+            <span class="path-number" aria-hidden="true">
+              {faNumber(index + 1)}
+            </span>
+          </div>
+          <h3>{path.title}</h3>
+          <p>{path.description}</p>
+          <span class="path-destination">
+            <span>
+              {faNumber(path.steps.length)} پست · {faNumber(path.minutes)} دقیقه
+            </span>
+            <Icon name="arrow" size={18} />
+          </span>
+        </a>
+      ))}
+    </div>
+  </section>
+)}
+
+<style>
+  .reading-paths {
+    margin-block: 40px;
+  }
+  .paths-heading {
+    margin-block-end: 22px;
+  }
+  .paths-eyebrow {
+    color: var(--action);
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .paths-heading h2 {
+    margin: 6px 0;
+    font-size: clamp(22px, 2.4vw, 28px);
+    line-height: 1.6;
+  }
+  .paths-heading p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .paths-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+  }
+  .path-card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 24px 20px 20px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: linear-gradient(
+      145deg,
+      color-mix(in srgb, var(--path-accent) 9%, var(--surface)),
+      var(--surface) 65%
+    );
+    transition:
+      transform 160ms ease,
+      border-color 160ms ease,
+      box-shadow 160ms ease;
+  }
+  .path-card:hover,
+  .path-card:focus-visible {
+    border-color: var(--action);
+    box-shadow: var(--shadow);
+    transform: translateY(-3px);
+  }
+  .path-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-block-end: 18px;
+  }
+  .path-symbol {
+    display: grid;
+    place-items: center;
+    width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 17px;
+    background: color-mix(in srgb, var(--path-accent) 15%, var(--surface));
+    color: var(--text);
+    border: 1px solid color-mix(in srgb, var(--path-accent) 35%, var(--border));
+  }
+  .path-number {
+    color: var(--muted);
+    font-size: 13px;
+    font-variant-numeric: tabular-nums;
+  }
+  .path-card h3 {
+    margin: 0 0 8px;
+    font-size: 20px;
+  }
+  .path-card p {
+    margin: 0 0 24px;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.9;
+  }
+  .path-destination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-block-start: auto;
+    padding-block-start: 14px;
+    border-block-start: 1px solid var(--border);
+    color: var(--action);
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .path-destination :global(svg) {
+    flex-shrink: 0;
+  }
+  @media (max-width: 1100px) {
+    .paths-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  @media (max-width: 700px) {
+    .reading-paths {
+      margin-block-end: 32px;
+    }
+    .paths-grid {
+      gap: 10px;
+    }
+    .path-card {
+      padding: 18px 14px 14px;
+      border-radius: 18px;
+    }
+    .path-symbol {
+      width: 44px;
+      height: 44px;
+      border-radius: 14px;
+    }
+    .path-top {
+      margin-block-end: 14px;
+    }
+    .path-card h3 {
+      font-size: 17px;
+    }
+    .path-card p {
+      font-size: 12px;
+      margin-block-end: 18px;
+    }
+    .path-destination {
+      font-size: 11px;
+    }
+  }
+  @media (max-width: 359px) {
+    .paths-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .path-card {
+      transition: none;
+    }
+    .path-card:hover,
+    .path-card:focus-visible {
+      transform: none;
+    }
+  }
+</style>

@@ -1,0 +1,12 @@
+node_modules/
+.astro/
+.next/
+.next-dev/
+dist/
+.env
+.env.local
+!.env.example
+playwright-report/
+test-results/
+.local/
+*.tsbuildinfo
