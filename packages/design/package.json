@@ -1,0 +1,1 @@
+{ "name": "@site/design", "version": "0.1.0", "private": true, "exports": { "./styles.css": "./src/styles.css" }, "dependencies": { "@fontsource-variable/vazirmatn": "^5.2.8" } }

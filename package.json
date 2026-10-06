@@ -1,0 +1,12 @@
+{
+  "name": "rozaneh-reading-site",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.12.1",
+  "scripts": {
+    "dev": "pnpm --filter @site/reader dev",
+    "build": "pnpm --filter @site/reader build",
+    "start": "pnpm --filter @site/reader start",
+    "check": "pnpm --filter @site/reader check"
+  }
+}
